@@ -123,7 +123,9 @@ t{
     background-color: #1778f2;
     color: white;
 }
-
+.phone{
+    opacity: 0;
+}
 .button:first-child{
     font-weight: bold;
 }
@@ -169,4 +171,103 @@ t{
     width: 60px;
     margin-right: 5px;
     float: left;
+}
+
+@media (max-width:700px) {
+
+    .navigation{
+    padding-left: 20px;
+    border: 2px solid;
+    background-color: rgb(255, 108, 95);
+    margin-top: 5px;
+    margin-right: 30px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    transition: 0.3s;
+    }
+    .phone{
+        opacity: 1;
+        line-height: 18px;
+        margin-left: 40px;
+        margin-right: 30px;
+        margin-top: 10px;
+        font-size: 15px;
+        text-indent: -18px;
+        text-align: justify;
+    }
+
+    .phone::first-letter{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .lineone{
+        display: none;
+    }
+    
+    .rumeelpp{
+        width: 320px;
+        position: relative;
+        top: 40px;
+    }
+
+    .linetwo{
+        position: absolute;
+        left: 0px;
+        top: 72%;
+        font-size: 12px;
+    }
+    t{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 35px;
+    }
+
+    .buttonplacement{
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        top: 107%;
+    }
+
+    .flexbuttons{
+        gap: 10px 10px;
+    }
+
+    .logosize{
+        height: 25px;
+        width: 30px;
+        margin-right: 5px;
+        align-items: flex-start;
+    }
+
+    .button{
+        background-color: rgb(93, 93, 93);
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 5px;
+        border-radius: 12px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .logosizer{
+        height: 25px;
+        width: 30px;
+        margin-right: 5px;
+        align-items: flex-start;
+    }
+
+    .resume{
+        margin-left: 30px;
+        background-color: rgb(93, 93, 93);
+        font-size: 15px;
+        height: 40px;
+        border-radius: 12px;
+        width: 100px;
+        margin-right: 24px;
+    }
+
 }

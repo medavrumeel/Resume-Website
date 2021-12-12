@@ -123,9 +123,7 @@ t{
     background-color: #1778f2;
     color: white;
 }
-.phone{
-    opacity: 0;
-}
+
 .button:first-child{
     font-weight: bold;
 }
@@ -172,7 +170,7 @@ t{
     margin-right: 5px;
     float: left;
 }
-.space{
+.phone{
     opacity: 0;
 }
 
